@@ -1,0 +1,7 @@
+
+به آدرس /opt/zimbra/ssl/zimbra/server رفته و فایل های جدید را نظیر به نظیر به صورت text کپی می کنیم. (server.crt , server.key)
+و دستور cd /opt/zimbra/ssl/zimbra
+zmcertmgr deploycrt self
+zmcertmgr migrate
+zmcertmgr deployca
+zmcontrol restart
